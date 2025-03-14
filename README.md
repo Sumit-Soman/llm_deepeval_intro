@@ -1,4 +1,4 @@
-# Chatbot RAG DeepEval Intro
+# DeepEval Metrics Guide
 
 ## Project Overview
 
