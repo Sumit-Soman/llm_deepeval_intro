@@ -13,13 +13,27 @@ This project focuses on implementing various evaluation metrics from the DeepEva
 
 ## Installation
 
+## Environment Setup
 
-To install the necessary dependencies, run:
+To set up the environment for this project, follow these steps:
 
-```bash
-pip install -r requirements.txt
-```
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/yourusername/llm_deepeval_intro.git
+    cd llm_deepeval_intro
+    ```
 
+2. **Create a virtual environment**:
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
+
+3. **Install the dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+    
 ## Usage
 
 To use the evaluation metrics in your project, import the desired metric and apply it to your chatbot's output. Below is an example:
